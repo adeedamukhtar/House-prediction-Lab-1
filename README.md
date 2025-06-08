@@ -34,6 +34,6 @@ The evaluation clearly indicates the superior performance of the **XGBoost Regre
 | Ridge Regression    | 3,290,660.16      | 44,093,369.53      | -8.0590        |
 | **XGBoost Regressor** | **1,030,580.77** | **6,476,564.86** | **0.8046** |
 
-XGBoost Regressor** achieved a strong R-squared of 0.8046, explaining over 80% of the variance in house prices, demonstrating its effectiveness in capturing complex non-linear relationships.
+**XGBoost Regressor** achieved a strong **R-squared of 0.8046**, explaining over 80% of the variance in house prices, demonstrating its effectiveness in capturing complex non-linear relationships.
 * **Ridge Regression** performed poorly with a negative R-squared, indicating its unsuitability for this dataset's inherent non-linear patterns, even after extensive preprocessing.
 * The **removal of the extreme outlier** was crucial, significantly improving the stability and meaningfulness of model evaluation metrics for both algorithms.
